@@ -1,0 +1,36 @@
+/* Core Style */
+.info {
+    text-align: center;
+    background-color: #35424a;
+    color: white;
+    padding-bottom: 1px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.call-link {
+    max-width: 300px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 6px;
+}
+
+
+/* maps */
+
+.googlemap-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position: relative;
+    height:0;
+}
+.googlemap-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position: absolute;
+}
