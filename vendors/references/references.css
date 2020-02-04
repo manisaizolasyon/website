@@ -4,3 +4,12 @@ section#main {
     background-size: cover;
     margin-bottom: 2px;
 }
+
+.references-background {
+    background-color: #505dd4;
+    color: #ffffff;
+}
+
+.check-list li:before {
+    color: #ffffff;
+}
