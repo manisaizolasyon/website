@@ -5,11 +5,18 @@ section#main {
     margin-bottom: 2px;
 }
 
-.references-background {
-    background-color: #505dd4;
+.check-list li:before {
     color: #ffffff;
 }
 
-.check-list li:before {
+.image {
+    min-height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
+}
+
+.carousel-item {
+    margin-top: 3px;
 }
