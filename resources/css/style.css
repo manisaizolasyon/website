@@ -19,11 +19,13 @@ ul {
 
 
 .call-link {
+    display: flex;
+    justify-content: center;
+    width: 250px;
     height: 30px;
     background: #ffffff;
     border: 0;
     border-radius: 100px;
-    justify-content: center;
     font-weight: 500;
     padding-left: 20px;
     padding-right: 20px;
@@ -333,6 +335,11 @@ a:active {
         border: 1px solid;
     }
 
+    #bulletin {
+        display: grid;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width:1199px) and (min-width:769px) {
@@ -350,4 +357,22 @@ a:active {
         border: 0;
         color: black;
     }
+
+}
+
+@media (max-width:991px) and (min-width:769px) {
+    #bulletin {
+        text-align: center;
+    }
+    
+    #bulletin form {
+        display: inline-flex;
+        float: none;
+    }
+    
+    #bulletin h1 {
+        float: none;
+    }
+    
+    
 }
