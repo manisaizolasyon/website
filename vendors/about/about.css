@@ -1,7 +1,11 @@
 .image {
-    min-height: 450px;
+    min-height: 760px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
     color: #ffffff;
+}
+
+#services {
+    margin-top: 20%;
 }
